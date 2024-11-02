@@ -34,7 +34,7 @@
   </parent>
 
   <groupId>com.soebes.examples.book</groupId>
-  <artifactId>book</artifactId>
+  <artifactId>book-example</artifactId>
   <version>1.0-SNAPSHOT</version>
   <name>Book-Example</name>
 
