@@ -38,5 +38,9 @@ jobs:
           java-version: 23
           distribution: 'temurin'
           cache: maven
+      - name: Set up Maven
+        uses: stCarolas/setup-maven@v5
+        with:
+          maven-version: 3.9.8
       - name: 'Build'
         run: mvn -V --no-transfer-progress verify
